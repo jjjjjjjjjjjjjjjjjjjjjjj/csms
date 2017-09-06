@@ -50,6 +50,9 @@ Create new Category
         <div class="col-sm-offset-3 col-sm-3">
             {!! Form::submit('Create', ['class' => 'btn btn-primary form-control']) !!}
         </div>
+         <div class="col-sm-offset-3 col-sm-3">
+         <a href="{{URL::to('/admin/categories')}}">Cancel </a>
+          </div>
     </div>
     {!! Form::close() !!}
 

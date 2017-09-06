@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+                    <br>
+                    <a href="{{URL::to('/admin/categories')}}">Performan Actions</a>
                 </div>
             </div>
         </div>

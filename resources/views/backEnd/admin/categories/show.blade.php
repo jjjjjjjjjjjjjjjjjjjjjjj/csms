@@ -6,6 +6,9 @@ Category
 @section('content')
 
     <h1>Category</h1>
+    <div class="container">
+        <a href="{{URL::to('/admin/categories')}}">Back </a>
+    </div>
     <div class="table-responsive">
         <table class="table table-bordered table-striped table-hover">
             <thead>
